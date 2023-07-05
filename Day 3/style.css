@@ -1,0 +1,23 @@
+html, body {
+    background: rgb(22, 126, 128)
+}
+.top {
+    width: 360px;
+    height: 300px;
+    position: absolute;
+    top: calc(50% - 150px);
+    right: calc(50% - 150px);
+    
+}
+.bottom {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% - 300px);
+    animation: spin 20s linear infinite;
+}
+@keyframes spin {
+    from {transform: rotate(0deg);}
+    to {transform:  rotate(360deg);}
+}
