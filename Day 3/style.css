@@ -7,7 +7,6 @@ html, body {
     position: absolute;
     top: calc(50% - 150px);
     right: calc(50% - 150px);
-    
 }
 .bottom {
     width: 600px;

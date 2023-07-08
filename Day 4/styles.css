@@ -1,0 +1,96 @@
+html, body {
+    background: rgb(235, 220, 231);
+    box-sizing: border-box; 
+}
+body {font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+}
+#mainheader {
+    font-size: x-large;
+    text-transform: uppercase;
+}
+.cont{
+    text-align: center;
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.palma{
+    max-width: 100px;
+    max-height: 100px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.menu a {
+    text-decoration: none;
+    color: yellow;
+}
+.menu {
+    background: rgb(199, 34, 136);
+    color: yellow;
+    height: 450px;
+    min-width:  200px;
+}
+.hello {
+    background:white;
+    color: rgb(199, 34, 136);
+    height: 450px;
+    min-width:  200px;
+    border-top:1px solid blueviolet;
+    border-bottom:1px solid blueviolet;
+    
+}
+.links {
+    background: rgb(199, 34, 136);
+    color: yellow;
+    height: 450px;
+    min-width:  200px;
+}
+.links a {
+    text-decoration: none;
+    color: yellow;
+    
+}
+.kwiat1
+{min-height: 100px;
+    max-height: 150px;
+    min-width:100px;
+}
+.kwiat2
+{min-height: 100px;
+    max-height: 150px;
+    min-width:100px;
+}.kwiat4
+{min-height: 100px;
+    max-height: 150px;
+    min-width:100px;
+}
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 50px;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.hashtag{
+    text-transform: uppercase;
+    color: blueviolet;
+}
+.footer{
+    display: flex;
+justify-content: space-between;
+    background: black;
+    color: aliceblue;
+    bottom: 0;
+}
+
+
