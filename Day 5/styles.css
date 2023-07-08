@@ -1,0 +1,98 @@
+html, body {
+    background: rgb(235, 220, 231);
+    box-sizing: border-box; 
+}
+body {font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+}
+.palma {
+    max-width: 150px;
+}
+.h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: blueviolet;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu {
+    background: rgb(199, 34, 136);
+    color: yellow;
+    grid-area: menu;
+    min-height: 500px;
+    align-content: center;
+    display: grid;
+    align-content: center;
+    
+}
+h2{
+    text-transform: uppercase;
+}
+.menu a {
+    text-decoration: none;
+    color: yellow;
+    
+}
+.container {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+/* grid-auto-rows: minmax(100px, 450px); */
+grid-template-areas:
+"menu hello hello hello links"
+"hashtag hashtag hashtag hashtag hashtag";
+}
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    align-self: self-end;
+}
+.hashtag {
+   
+    grid-area: hashtag;
+    text-transform: uppercase;
+    color: blueviolet;
+    font-size: 20px;
+    margin-top: 20px;
+    min-height: 100;
+}
+.hello {
+    grid-area: hello;
+    border-top-style: solid;
+    border-bottom-style:solid;
+    border-color: blueviolet;   
+    display: grid;
+    align-content: center;
+    
+}
+.h{ display:grid;
+    align-self: self-start;
+    color: blueviolet;
+
+}
+.links {
+    background: rgb(199, 34, 136);
+    color: yellow;
+    grid-area: links;
+    display: grid;
+    align-content: center;
+
+}
+.links a {
+    text-decoration: none;
+    color: yellow;
+}
+.footer {
+    background: black;
+    color: aliceblue;
+    display: flex;
+justify-content: space-between;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%
+;}
